@@ -1,0 +1,70 @@
+class PuneethRajkumarMovies{
+	public static void main(String[] args) {
+
+		String movie1 = "Bettada Hoovu";
+		System.out.println(movie1);
+		String movie2 = "Eradu Nakshatragalu";
+		System.out.println(movie2);
+		String movie3 = "Bhagyavantha";
+		System.out.println(movie3);
+		String movie4 = "Chalisuva Modagalu";
+		System.out.println(movie4);
+		String movie5 = "Vasantha Geetha";
+		System.out.println(movie5);
+		String movie6 = "Bhakta Prahlada";
+		System.out.println(movie6);
+		String movie7 = "Shankar Guru";
+		System.out.println(movie7);
+		String movie8 = "Yaarivanu";
+		System.out.println(movie8);
+        String movie9 = "Appu";
+		System.out.println(movie9);
+		String movie10 = "Abhi";
+		System.out.println(movie10);
+		String movie11 = "Veera Kannadiga";
+		System.out.println(movie11);
+		String movie12 = "Aakash";
+		System.out.println(movie12);
+		String movie13 = "Ajay";
+		System.out.println(movie13);
+		String movie14 = "Arasu";
+		System.out.println(movie14);
+		String movie15 = "Vamshi";
+		System.out.println(movie15);
+		String movie16 = "Milana";
+		System.out.println(movie16);
+		String movie17 = "Jackie";
+		System.out.println(movie17);
+		String movie18 = "Hudugaru";
+		System.out.println(movie18);
+		String movie19 = "Power";
+		System.out.println(movie19);
+		String movie20 = "Rana Vikrama";
+		System.out.println(movie20);
+		String movie21 = "Raajakumara";
+		System.out.println(movie21);
+		String movie22 = "Anjani Putra";
+		System.out.println(movie22);
+		String movie23 = "Natasaarvabhowma";
+		System.out.println(movie23);
+		String movie24 = "Yuvarathnaa";
+		System.out.println(movie24);
+		String movie25 = "James";
+		System.out.println(movie25);
+        String movie26 = "Mayabazar 2016";
+		System.out.println(movie26);
+		String movie27 = "Prithvi";
+		System.out.println(movie27);
+		String movie28 = "Paramathma";
+		System.out.println(movie28);
+		String movie29 = "Mythri";
+		System.out.println(movie29);
+		String movie30 = "Maurya";
+		System.out.println(movie30);
+		String movie31 = "Bhakta Kumbara";
+		System.out.println(movie31);
+		String movie32 = "Thayige Thakka Maga";
+		System.out.println(movie32);
+
+	}
+}
