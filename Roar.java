@@ -1,0 +1,5 @@
+class Roar{
+	
+	boolean roar;
+	
+}
