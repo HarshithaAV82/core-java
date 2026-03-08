@@ -24,8 +24,40 @@ class Mouse{
 		this.drag=drag;
 		this.model=model;
 		
-		System.out.println("Created Mouse with leftClick rightClick scrollDown drag model usinng const");
+		System.out.println("Created Mouse with leftClick rightClick scrollDown drag model using const");
 	}
 	
-	
+	void getDetails(){
+		
+		System.out.println("Mouse details noOfMouse:" + this.noOfMouse);
+		if(this.leftClick !=null){
+			
+			this.leftClick.getInfo();
+		}else{
+			System.out.println("LeftClick option is not there..");
+		}
+		if(this.rightClick != null){
+			this.rightClick.getInfo();
+		}else{
+			System.out.println("RightClick option is not there..");
+		}
+		if(this.scrollDown !=null){
+			
+			this.scrollDown.getDisplay();
+		}else{
+			System.out.println("scrollDown option is not there..");
+		}
+		if(this.drag !=null){
+			
+			this.drag.getDetails();
+		}else{
+			System.out.println("drag option is not there..");
+		}
+		if(this.model !=null){
+			
+			this.model.getInfo();
+		}else{
+			System.out.println("model option is not there..");
+		}
+	}
 }

@@ -3,12 +3,17 @@ class CloudRunner{
 	public static void main(String[] args){
 		
 		Rain rain = new Rain(4, true);
-		rain.getCloud();
-        Wind wind = new Wind();
-        Sun sun = new Sun();
-        Sky sky = new Sky();
-        Thunder thunder = new Thunder();
-
-        Cloud cloud = new Cloud(rain, wind, sun, sky, thunder);
+		
+		Wind wind = new Wind(20, "East");
+		
+		Sun sun = new Sun(45, true);
+		
+		Sky sky = new Sky("Blue", true);
+		
+		Thunder thunder = new Thunder("Boom", 3);
+		
+		Cloud cloud = new Cloud(rain, wind, sun, sky, thunder);
+		
+		cloud.getCloudInfo();
 	}
 }

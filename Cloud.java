@@ -26,5 +26,38 @@ class Cloud{
 		
 		System.out.println("Created Cloud  using rain wind sun sky thunder with const..");
 	}
+	
+	void getCloudInfo(){
+		
+		if(this.rain != null){
+			this.rain.getCloud();
+		}else{
+			System.out.println("Rain is null");
+		}
+		
+		if(this.wind != null){
+			this.wind.getCloud();
+		}else{
+			System.out.println("Wind is null");
+		}
+		
+		if(this.sun != null){
+			this.sun.getCloud();
+		}else{
+			System.out.println("Sun is null");
+		}
+		
+		if(this.sky != null){
+			this.sky.getCloud();
+		}else{
+			System.out.println("Sky is null");
+		}
+		
+		if(this.thunder != null){
+			this.thunder.getCloud();
+		}else{
+			System.out.println("Thunder is null");
+		}
+	}
 }
 

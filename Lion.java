@@ -23,5 +23,32 @@ class Lion{
 		System.out.println("Created Lion with animal carnivores forest roar king using const..");
 	}
 	
+	void getInfo(){
+		if(this.animal != null){
+			this.animal.getAnimal();
+		}else{
+			System.out.println("Animal is not there...");
+		}
+		if(this.forest != null){
+			this.forest.getAnimal();
+		}else{
+			System.out.println("Forset is not there...");
+		}
+		if(this.roar != null){
+			this.roar.getAnimal();
+		}else{
+			System.out.println("Lion is not there...");
+		}
+		if(this.king != null){
+			this.king.getAnimal();
+		}else{
+			System.out.println("king is not there...");
+		}
+		if(this.carnivores != null){
+			this.carnivores.getAnimal();
+		}else{
+			System.out.println("carnivores is not there...");
+		}
+	}
 
 }

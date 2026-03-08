@@ -2,7 +2,7 @@ class File{
 	
 	int size = 23;
 	int count = 5;
-	String FileType = "text";
+	String fileType = "text";
 	boolean store = true;
 	int copy = 6;
 	

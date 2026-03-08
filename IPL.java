@@ -22,6 +22,40 @@ class IPL{
 		
 		System.out.println("Created IPL matches using indiaMatch csk england pakistan mumbai");
 	}
+	void getInfo(){
+		if(this.indiaMatch != null){
+			this.indiaMatch.getMatch();
+		}else{
+			System.out.println("IndiaMatch not available");
+		}
+		
+		if(this.csk != null){
+			this.csk.getMatch();
+		}else{
+			System.out.println("CSK not available");
+		}
+		
+
+		if(this.england != null){
+			this.england.getMatch();
+		}else{
+			System.out.println("England not available");
+		}
 	
+		
+		if(this.pakistan != null){
+			this.pakistan.getMatch();
+		}else{
+			System.out.println("Pakistan not available");
+		}
 	
+		
+		if(this.mumbai != null){
+			this.mumbai.getMatch();
+		}else{
+			System.out.println("Mumbai not available");
+		}
+		
+		
+	}
 }

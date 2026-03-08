@@ -24,4 +24,34 @@ class Motor{
 		
 		System.out.println("created Motor using acMotor dcMotor inductionMotor electricMotor hybridMotor with const..");
 	}
+	
+	
+	
+   void getInfo(){
+	   
+	   if(this.acMotor != null){
+		  this.acMotor.getMotor();
+	   }else{
+		   System.out.println(" AC Motor Info is not there...");
+	   }
+	   if(this.dcMotor != null){
+		  this.dcMotor.getMotor();
+	   }else{
+		   System.out.println(" Dc Motor Info is not there...");
+	   }
+	   if(this.inductionMotor != null){
+		  this.inductionMotor.getMotor();
+	   }else{
+		   System.out.println(" Induction Motor Info is not there...");
+	   }if(this.electricMotor != null){
+		  this.electricMotor.getMotor();
+	   }else{
+		   System.out.println("induction Motor Info is not there...");
+	   }
+	   if(this.hybridMotor != null){
+		  this.hybridMotor.getMotor();
+	   }else{
+		   System.out.println("hybrid Motor Info is not there...");
+	   }
+   }
 }
