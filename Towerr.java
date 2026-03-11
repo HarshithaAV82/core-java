@@ -1,4 +1,4 @@
-class Tower{
+class Towerr{
 
     String[] towerNames;
     Floor[] floors;

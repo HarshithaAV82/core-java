@@ -1,5 +1,0 @@
-class Roar{
-	
-	boolean roar;
-	
-}
