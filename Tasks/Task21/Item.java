@@ -1,0 +1,8 @@
+enum Item{
+	
+	GROCERY,
+	CLOTHING,
+	ACCESSORIES,
+	PLASTICS
+	
+}
