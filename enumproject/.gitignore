@@ -1,29 +1,30 @@
-# Ignore IntelliJ files
-.idea/
-*.iml
-
-# Ignore build/output folders
+### IntelliJ IDEA ###
 out/
-build/
+!**/src/main/**/out/
+!**/src/test/**/out/
+.kotlin
 
-# Ignore logs
-*.log
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
 
-# Ignore OS files
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
 .DS_Store
-Thumbs.db
-
-# Ignore compiled Java files
-*.class
-
-# (Optional) Ignore jar/war if generated
-*.jar
-*.war
-
-# Ignore everything EXCEPT src (important trick)
-*
-!src/
-!src/**
-
-# Also allow gitignore itself
-!.gitignore
