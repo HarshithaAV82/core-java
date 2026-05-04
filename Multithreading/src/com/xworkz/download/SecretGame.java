@@ -2,7 +2,7 @@ package com.xworkz.download;
 import java.util.Scanner;
 public class SecretGame {
 
-        private int secretNumber = 7; 
+        private int secretNumber = 7;
 
         public void startGame() {
             Scanner scanner = new Scanner(System.in);
