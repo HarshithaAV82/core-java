@@ -9,7 +9,7 @@ public class Main10 {
 
         ParkingService parking = new ParkingServiceImpl();
 
-      
+
         parking.allocateSlot();
         parking.releaseSlot();
         parking.calculateFee();
