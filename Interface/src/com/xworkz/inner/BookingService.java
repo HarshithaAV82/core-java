@@ -2,7 +2,7 @@ package com.xworkz.inner;
 
 public interface BookingService {
 
-    String SERVICE_TYPE = "Transport";
+   public static final String SERVICE_TYPE = "Transport";
     int TOTAL_SEATS = 60;
     double TICKET_PRICE = 450.50;
 
