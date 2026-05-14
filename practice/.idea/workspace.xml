@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="abeac72b-5f9b-49ee-9ae3-d6b809b2b549" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/xworkz/accessspecifier/Speaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xworkz/accessspecifier/SpeakerRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xworkz/otherpackage/BluetoothSpeaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xworkz/otherpackage/SpeakerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xworkz/accessspecifier/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xworkz/accessspecifier/PhoneRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xworkz/otherpackage/CustomerRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xworkz/otherpackage/VivoPhone.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,9 +59,12 @@
     "Application.BluetoothSpeaker.executor": "Run",
     "Application.CameraRunner.executor": "Run",
     "Application.CameraTest.executor": "Run",
+    "Application.CustomerRunner.executor": "Run",
+    "Application.PhoneRunner.executor": "Run",
     "Application.SonyCamera.executor": "Run",
     "Application.SpeakerRunner.executor": "Run",
     "Application.SpeakerTest.executor": "Run",
+    "Application.VivoPhone.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -70,7 +73,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SpeakerTest">
+  <component name="RunManager" selected="Application.CustomerRunner">
     <configuration name="BluetoothSpeaker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.xworkz.otherpackage.BluetoothSpeaker" />
       <module name="practice" />
@@ -84,8 +87,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CameraTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xworkz.otherpackage.CameraTest" />
+    <configuration name="CustomerRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xworkz.otherpackage.CustomerRunner" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
@@ -97,21 +100,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SonyCamera" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xworkz.otherpackage.SonyCamera" />
-      <module name="practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xworkz.otherpackage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpeakerRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xworkz.accessspecifier.SpeakerRunner" />
+    <configuration name="PhoneRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xworkz.accessspecifier.PhoneRunner" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
@@ -136,13 +126,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="VivoPhone" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xworkz.otherpackage.VivoPhone" />
+      <module name="practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xworkz.otherpackage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CustomerRunner" />
+        <item itemvalue="Application.VivoPhone" />
+        <item itemvalue="Application.PhoneRunner" />
         <item itemvalue="Application.SpeakerTest" />
         <item itemvalue="Application.BluetoothSpeaker" />
-        <item itemvalue="Application.SpeakerRunner" />
-        <item itemvalue="Application.CameraTest" />
-        <item itemvalue="Application.SonyCamera" />
       </list>
     </recent_temporary>
   </component>
