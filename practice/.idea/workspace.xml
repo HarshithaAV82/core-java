@@ -5,10 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="abeac72b-5f9b-49ee-9ae3-d6b809b2b549" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/xworkz/accessspecifier/Phone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xworkz/accessspecifier/PhoneRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xworkz/otherpackage/CustomerRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xworkz/otherpackage/VivoPhone.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="7" />
+    <option name="cachedIndexableFilesCount" value="18" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -29,50 +25,50 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "HarshithaAV82"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;HarshithaAV82&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/HarshithaAV82/core-java.git",
-    "accountId": "83a58a1d-4730-45e4-96e9-9049d71b3717"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/HarshithaAV82/core-java.git&quot;,
+    &quot;accountId&quot;: &quot;83a58a1d-4730-45e4-96e9-9049d71b3717&quot;
   }
-}]]></component>
+}</component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="3DipGpJduPsjS9UoJVzJs7m8n8k" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.BluetoothSpeaker.executor": "Run",
-    "Application.CameraRunner.executor": "Run",
-    "Application.CameraTest.executor": "Run",
-    "Application.CustomerRunner.executor": "Run",
-    "Application.PhoneRunner.executor": "Run",
-    "Application.SonyCamera.executor": "Run",
-    "Application.SpeakerRunner.executor": "Run",
-    "Application.SpeakerTest.executor": "Run",
-    "Application.VivoPhone.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.BluetoothSpeaker.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CameraRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CameraTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CustomerRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PhoneRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SonyCamera.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SpeakerRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SpeakerTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VivoPhone.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.CustomerRunner">
     <configuration name="BluetoothSpeaker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.xworkz.otherpackage.BluetoothSpeaker" />
