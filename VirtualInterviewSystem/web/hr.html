@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HR Interview - Virtual Interview System</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body onload="loadInterviewPage('HR')">
+    <div class="container mt-5">
+        <div class="card box shadow-sm p-4">
+            <h2 class="text-center mb-4">HR Interview</h2>
+            <div id="questionBox" class="mb-4">
+                <p id="questionText" class="fs-5"></p>
+                <p id="recordStatus" class="text-muted"></p>
+                <button id="startButton" type="button" onclick="startRecording()" class="btn btn-outline-primary w-100 mb-2">Start Recording</button>
+                <button id="stopButton" type="button" onclick="stopRecording()" class="btn btn-secondary w-100 mb-2" disabled>Stop Recording</button>
+                <audio id="audioPlayback" controls class="w-100 mb-3" style="display:none"></audio>
+                <button id="nextButton" type="button" onclick="nextQuestion()" class="btn btn-success w-100" disabled>Next Question</button>
+            </div>
+            <button id="submitButton" onclick="submitInterview('HR')" class="btn btn-primary w-100 mb-2" disabled>Submit HR Interview</button>
+            <a href="dashboard.html" class="btn btn-outline-secondary w-100">Back to Dashboard</a>
+        </div>
+    </div>
+    <script src="../js/script.js"></script>
+</body>
+</html>
