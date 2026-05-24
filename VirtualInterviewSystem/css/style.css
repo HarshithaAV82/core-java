@@ -1,0 +1,230 @@
+/**
+ * Virtual Speaking Interview System - CSS File
+ * Beginner-friendly responsive styling
+ */
+
+/* ============================================
+   GENERAL BODY STYLING
+   ============================================ */
+
+body {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    padding: 20px 0;
+}
+
+/* ============================================
+   CONTAINER & CARD STYLING
+   ============================================ */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.box {
+    max-width: 500px;
+    width: 100%;
+    margin: 20px auto;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.card {
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+}
+
+/* ============================================
+   BUTTON STYLING
+   ============================================ */
+
+button {
+    font-weight: 600;
+    padding: 12px 20px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #667eea;
+    border-color: #667eea;
+}
+
+.btn-primary:hover {
+    background-color: #5568d3;
+    border-color: #5568d3;
+}
+
+.btn-success {
+    background-color: #48bb78;
+    border-color: #48bb78;
+}
+
+.btn-success:hover {
+    background-color: #38a169;
+    border-color: #38a169;
+}
+
+.btn-secondary {
+    background-color: #cbd5e0;
+    border-color: #cbd5e0;
+    color: #2d3748;
+}
+
+.btn-secondary:hover {
+    background-color: #a0aec0;
+    border-color: #a0aec0;
+}
+
+.btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* ============================================
+   FORM STYLING
+   ============================================ */
+
+.form-control {
+    border-radius: 8px;
+    border: 2px solid #e2e8f0;
+    padding: 12px 15px;
+    transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #667eea;
+    box-shadow: 0 0 0 0.2rem rgba(102, 126, 234, 0.25);
+}
+
+.form-label {
+    font-weight: 600;
+    color: #2d3748;
+    margin-bottom: 8px;
+}
+
+/* ============================================
+   TEXT STYLING
+   ============================================ */
+
+h1, h2 {
+    color: #2d3748;
+    font-weight: 700;
+}
+
+.text-muted {
+    color: #718096 !important;
+}
+
+.text-danger {
+    color: #f56565 !important;
+}
+
+.text-success {
+    color: #48bb78 !important;
+}
+
+a {
+    color: #667eea;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #5568d3;
+    text-decoration: underline;
+}
+
+/* ============================================
+   INTERVIEW PAGE STYLING
+   ============================================ */
+
+#questionBox {
+    background-color: #f7fafc;
+    padding: 20px;
+    border-radius: 10px;
+    border-left: 5px solid #667eea;
+}
+
+#questionText {
+    color: #2d3748;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+#recordStatus {
+    color: #4299e1;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+audio {
+    background-color: #f7fafc;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+/* ============================================
+   RESPONSIVE DESIGN
+   ============================================ */
+
+@media (max-width: 768px) {
+    .box {
+        max-width: 90%;
+    }
+    
+    .container {
+        min-height: auto;
+    }
+    
+    body {
+        padding: 10px 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .box {
+        width: 95%;
+        padding: 20px !important;
+    }
+    
+    button {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+    
+    h1, h2 {
+        font-size: 22px;
+    }
+    
+    #questionBox {
+        padding: 15px;
+    }
+}
+
+/* ============================================
+   UTILITY CLASSES
+   ============================================ */
+
+.shadow-sm {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.mb-0 {
+    margin-bottom: 0;
+}
+
+.mt-5 {
+    margin-top: 3rem;
+}

@@ -15,29 +15,39 @@
 
 </head>
 
-<body>
+<body onload="initDashboard()">
 
 <div class="container mt-5">
 
     <div class="card box p-4 text-center">
 
-        <h2>Welcome</h2>
+        <h2>Welcome, <span id="welcomeName">Candidate</span></h2>
 
         <p>
             Choose Interview Type
         </p>
 
-        <button class="btn btn-primary w-100 mb-2">
-            HR Interview
-        </button>
+        <a href="hr.html">
+            <button class="btn btn-primary w-100 mb-2">
+                HR Interview
+            </button>
+        </a>
 
-        <button class="btn btn-success w-100">
-            Technical Interview
+        <a href="technical.html">
+            <button class="btn btn-success w-100 mb-2">
+                Technical Interview
+            </button>
+        </a>
+
+        <button onclick="logout()" class="btn btn-outline-secondary w-100">
+            Logout
         </button>
 
     </div>
 
 </div>
+
+<script src="../js/script.js"></script>
 
 </body>
 </html>
