@@ -10,11 +10,59 @@
 <body onload="loadDashboard()">
     <div class="container mt-5">
         <div class="card box shadow-sm p-4 text-center">
-            <h2 class="mb-3">Welcome, <span id="dashboardName">Candidate</span></h2>
-            <p class="text-muted mb-4">Choose the interview type below.</p>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <h2 class="mb-0">Welcome, <span id="dashboardName">Candidate</span></h2>
+                <button id="darkModeToggle" class="btn btn-outline-dark btn-sm" onclick="toggleDarkMode()">Dark Mode</button>
+            </div>
+            <div id="dashboardMessage" class="alert alert-info mb-4" style="display:none;"></div>
+            <div class="row mb-4">
+                <div class="col-md-4 mb-3">
+                    <div class="card p-3 h-100">
+                        <h6 class="mb-2" data-i18n="dailyStreak">Daily Streak</h6>
+                        <div id="streakCount" class="h2 text-primary">0 days</div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card p-3 h-100">
+                        <h6 class="mb-2" data-i18n="badges">Badges</h6>
+                        <div id="badgeList" class="d-flex flex-wrap gap-2"></div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3 text-start">
+                    <label for="languageSelect" class="form-label" data-i18n="language">Language</label>
+                    <select id="languageSelect" class="form-select" onchange="saveLanguage(this.value)">
+                        <option value="en">English</option>
+                        <option value="es">Español</option>
+                        <option value="hi">हिन्दी</option>
+                    </select>
+                </div>
+            </div>
+            <p id="dashboardSubtext" class="text-muted mb-4" data-i18n="chooseInterviewText">Choose the interview type below.</p>
+            <div class="mb-4 text-start">
+                <label for="jobRoleSelect" class="form-label" data-i18n="selectJobRole">Select Job Role</label>
+                <select id="jobRoleSelect" class="form-select" onchange="saveJobRole(this.value)">
+                    <option value="General">General Interview</option>
+                    <option value="Software Engineer">Software Engineer</option>
+                    <option value="Data Analyst">Data Analyst</option>
+                    <option value="Product Manager">Product Manager</option>
+                    <option value="Customer Success">Customer Success</option>
+                </select>
+            </div>
+            <div class="mb-4 text-start">
+                <label for="difficultySelect" class="form-label">Difficulty Level</label>
+                <select id="difficultySelect" class="form-select" onchange="saveDifficulty(this.value)">
+                    <option value="Easy">Easy</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Hard">Hard</option>
+                </select>
+            </div>
             <a href="hr.html" class="d-block mb-2"><button class="btn btn-primary w-100">HR Interview</button></a>
             <a href="technical.html" class="d-block mb-4"><button class="btn btn-success w-100">Technical Interview</button></a>
             <button onclick="logoutUser()" class="btn btn-outline-secondary w-100">Logout</button>
+            <div id="interviewHistorySection" class="mt-4 text-start">
+                <h5 class="mb-3" data-i18n="interviewHistory">Interview History</h5>
+                <div id="historyList" class="list-group"></div>
+            </div>
         </div>
     </div>
     <script src="../js/script.js"></script>
