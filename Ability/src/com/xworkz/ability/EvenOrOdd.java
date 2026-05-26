@@ -1,6 +1,6 @@
 package com.xworkz.ability;
-
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class EvenOrOdd {
 
@@ -9,13 +9,14 @@ public class EvenOrOdd {
         int[] arr = {2, 4, 1, 3, 5, 7, 8, 6, 9};
 
         System.out.println(Arrays.toString(arr));
-        for (int i = 0; i < arr.length; i++) {
-            if (arr[i] % 2 == 0) {
-                System.out.println("even");
-            } else {
-                System.out.println("odd");
-            }
-
+        Scanner scanner = new Scanner(System.in);
+        int num = scanner.nextInt();
+        if (num % 2 == 0) {
+            System.out.println("even");
+        } else {
+            System.out.println("odd");
         }
+
     }
 }
+
