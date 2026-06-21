@@ -8,7 +8,7 @@ public class HashMapExample {
 
         HashMap<Integer,String> map = new HashMap<>();
         map.put(101,"Harshitha");
-        map.put(102,"MAnasa");
+        map.put(102,"Manasa");
 
         System.out.println(map);
     }
