@@ -19,8 +19,8 @@ public class ArraySum {
         }
             int sum = 0;          //Create a variable to store the sum
 
-           for (int j = 0; j < n; j++){   //Add all array elements
-            sum = sum + arr[j];
+           for (int i = 0; i < n; i++){   //Add all array elements
+            sum = sum + arr[i];
            }
 
             System.out.println("Sum of array elements is: " + sum);
@@ -31,3 +31,8 @@ public class ArraySum {
 
 
 
+//Because the first i belongs only to the first loop.
+
+//After that loop ends, that i is gone.
+
+//The second loop creates a new i.
