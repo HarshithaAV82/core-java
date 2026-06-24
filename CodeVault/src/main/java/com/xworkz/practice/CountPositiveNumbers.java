@@ -35,6 +35,6 @@ public class CountPositiveNumbers {
             }
         }
         // Step 8: Print count
-        System.out.println("Number of odd elements: " + count);
+        System.out.println("Number of positive elements: " + count);
     }
 }
