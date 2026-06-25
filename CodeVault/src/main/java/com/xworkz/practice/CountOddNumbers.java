@@ -27,7 +27,7 @@ public class CountOddNumbers {
         // Step 5: Traverse array
         for (int i = 0; i < n; i++){
 
-            // Step 6: Check whether element is even
+            // Step 6: Check whether element is odd
             if (arr[i] % 2 != 0){
 
                 // Step 7: Increment count
