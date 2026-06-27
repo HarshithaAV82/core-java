@@ -24,7 +24,7 @@ public class LargestElement {
 
         // Step 4: Assume first element is largest
 
-        int largest = 0;
+        int largest = arr[0];
 
         // Step 5: Traverse array
 
