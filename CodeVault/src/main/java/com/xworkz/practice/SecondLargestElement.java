@@ -25,7 +25,7 @@ public class SecondLargestElement {
 
         // Step 4: Assume first element is largest and secondLargest
         int largest = arr[0];
-        int secondLargest = arr[0];
+        int secondLargest = arr[0];     //Integer.MIN_VALUE
 
         // Step 5: Traverse array
         for (int i = 1; i < n;  i++){
