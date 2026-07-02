@@ -50,3 +50,18 @@ public class MergeTwoArrays {
 
     }
 }
+
+
+//   Step 10: Sort merged array in ascending order
+//        for (int i = 0; i < mergedArray.length; i++) {
+//
+//            for (int j = i + 1; j < mergedArray.length; j++) {
+//
+//                if (mergedArray[i] > mergedArray[j]) {
+//
+//                    int temp = mergedArray[i];
+//                    mergedArray[i] = mergedArray[j];
+//                    mergedArray[j] = temp;
+//                }
+//            }
+//        }
