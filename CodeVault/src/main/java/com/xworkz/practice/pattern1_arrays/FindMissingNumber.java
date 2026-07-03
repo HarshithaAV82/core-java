@@ -1,8 +1,8 @@
-package com.xworkz.practice;
+package com.xworkz.practice.pattern1_arrays;
 
 import java.util.Scanner;
 
-public class ReverseArray {
+public class FindMissingNumber {
 
     public static void main(String[] args) {
 
@@ -18,15 +18,22 @@ public class ReverseArray {
         // Step 3: Store array elements
         System.out.println("Enter the array elements");
 
+        int actualSum = 0;
+
         for (int i = 0; i < n; i++) {
             arr[i] = scanner.nextInt();
+
+            // Step 4: Calculate actual sum
+            actualSum = actualSum + arr[i];
         }
 
-        // Step 4: Traverse array from last index
-        for (int i = n - 1; i >= 0; i--) {
+        // Step 5: Calculate expected sum
+        int expectedSum = (n + 1) * (n + 2) / 2;
 
-            // Step 5: Print elements
-            System.out.print(arr[i] + " ");
-        }
+        // Step 6: Find missing number
+        int missingNumber = expectedSum - actualSum;
+
+        // Step 7: Print missing number
+        System.out.println("Missing Number:" + missingNumber);
     }
 }

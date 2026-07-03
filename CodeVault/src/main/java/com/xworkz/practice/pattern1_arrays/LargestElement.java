@@ -1,4 +1,4 @@
-package com.xworkz.practice;
+package com.xworkz.practice.pattern1_arrays;
 
 import java.util.Scanner;
 
