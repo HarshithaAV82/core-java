@@ -11,7 +11,7 @@ public class SmallestDigit {
         System.out.println("Enter a number");
         int num = scanner.nextInt();
 
-        // Step 2: Create smallest variable
+        // Step 2: Create smallestvariable
         int smallest = 9;
 
         // Step 3: Repeat until number becomes 0
