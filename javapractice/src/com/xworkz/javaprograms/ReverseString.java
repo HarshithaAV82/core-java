@@ -27,7 +27,40 @@ import java.util.Scanner;
 //}
 
 
-public class ReverseString{
+//public class ReverseString{
+
+//    public static void main(String[] args) {
+//
+//        Scanner scanner = new Scanner(System.in);
+//
+//        System.out.println("Enter a string");
+//        String word = scanner.nextLine();
+//
+//        // Step 1: Create List
+//        List<Character> list = new ArrayList<>();
+//
+//        // Step 2: Store characters in List
+//        for (int i = 0; i < word.length(); i++){
+//            list.add(word.charAt(i));
+//        }
+//
+//        // Step 3: Reverse List
+//        Collections.reverse(list);
+//
+//        // Step 4: Print reversed string
+//        System.out.println("Reverse String:");
+//
+//        for (Character ch : list){
+//
+//            System.out.println(ch);
+//        }
+//    }
+//}
+
+
+
+
+public class ReverseString  {
 
     public static void main(String[] args) {
 
@@ -36,23 +69,8 @@ public class ReverseString{
         System.out.println("Enter a string");
         String word = scanner.nextLine();
 
-        // Step 1: Create List
-        List<Character> list = new ArrayList<>();
+        StringBuilder builder = new StringBuilder(word);
 
-        // Step 2: Store characters in List
-        for (int i = 0; i < word.length(); i++){
-            list.add(word.charAt(i));
-        }
-
-        // Step 3: Reverse List
-        Collections.reverse(list);
-
-        // Step 4: Print reversed string
-        System.out.println("Reverse String:");
-
-        for (Character ch : list){
-
-            System.out.println(ch);
-        }
+        System.out.println("Reverse String: " + builder.reverse());
     }
 }
