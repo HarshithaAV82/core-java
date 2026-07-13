@@ -26,3 +26,7 @@ public class CountVowels {
         System.out.println("Number of Vowels:" + count);
     }
 }
+
+
+//char ch = Character.toLowerCase(word.charAt(i));
+//if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u')
