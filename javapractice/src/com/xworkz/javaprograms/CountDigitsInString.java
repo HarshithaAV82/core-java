@@ -33,3 +33,6 @@ public class CountDigitsInString {
         System.out.println("Number of Digits:" + count);
     }
 }
+//if (Character.isDigit(ch)) {
+//    count++;
+//}
