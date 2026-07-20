@@ -33,3 +33,24 @@ public class CharacterFrequency {
         }
     }
 }
+
+//Scanner scanner = new Scanner(System.in);
+//
+//        // Step 1: Read the string
+//        System.out.println("Enter a string");
+//        String word = scanner.nextLine();
+//
+//        // Step 2: Create HashMap
+//        Map<Character, Integer> map = new HashMap<>();
+//
+//        // Step 3: Traverse the string
+//        for (int i = 0; i < word.length(); i++) {
+//
+//            char ch = word.charAt(i);
+//
+//            // Step 4: Count frequency
+//            map.put(ch, map.getOrDefault(ch, 0) + 1);
+//        }
+//
+//        // Step 5: Print frequency using Lambda Expression
+//        map.forEach((key, value) -> System.out.println(key + " : " + value));
