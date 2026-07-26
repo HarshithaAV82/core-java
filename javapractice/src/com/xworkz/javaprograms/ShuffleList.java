@@ -27,3 +27,30 @@ public class ShuffleList {
         System.out.println("After Shuffle : " + names);
     }
 }
+
+
+//  // Step 1: Create Scanner object
+//        Scanner scanner = new Scanner(System.in);
+//
+//        // Step 2: Create List
+//        List<String> names = new ArrayList<>();
+//
+//        // Step 3: Read the number of elements
+//        System.out.println("Enter the number of names:");
+//        int size = scanner.nextInt();
+//        scanner.nextLine(); // Consume the leftover newline
+//
+//        // Step 4: Read the names
+//        System.out.println("Enter the names:");
+//        for (int i = 0; i < size; i++) {
+//            names.add(scanner.nextLine());
+//        }
+//
+//        // Step 5: Print before shuffle
+//        System.out.println("Before Shuffle : " + names);
+//
+//        // Step 6: Shuffle the list
+//        Collections.shuffle(names);
+//
+//        // Step 7: Print after shuffle
+//        System.out.println("After Shuffle : " + names);
