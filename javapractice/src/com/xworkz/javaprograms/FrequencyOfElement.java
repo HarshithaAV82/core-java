@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
 
-public class MinimumElement {
+public class FrequencyOfElement {
 
     public static void main(String[] args) {
 
@@ -25,13 +25,17 @@ public class MinimumElement {
             numbers.add(scanner.nextInt());
         }
 
-        // Step 5: Print the List
-        System.out.println("List:" + numbers);
+        // Step 5: Read the element to search
+        System.out.println("Enter the element to find frequency:");
+        int element = scanner.nextInt();
 
-        // Step 6: Find the minimum element
-        int min = Collections.min(numbers);
+        // Step 6: Find the frequency
+        int frequency = Collections.frequency(numbers, element);
 
-        // Step 7: Print the minimum element
-        System.out.println("Minimum Element:" + min);
+        // Step 7: Print the List
+        System.out.println("List : " + numbers);
+
+        // Step 8: Print the frequency
+        System.out.println("Frequency of " + element + " is : " + frequency);
     }
 }
