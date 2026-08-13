@@ -4,27 +4,27 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class ConvertToUppercase {
+public class MultiplyNumbers {
 
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
 
-        List<String> names = new ArrayList<>();
+        List<Integer> numbers = new ArrayList<>();
 
         System.out.println("Enter the number of elements:");
         int n = scanner.nextInt();
-        scanner.nextLine();
 
-        System.out.println("Enter the names:");
+        System.out.println("Enter the elements:");
         for (int i = 0; i < n; i++){
-            names.add(scanner.nextLine());
+            numbers.add(scanner.nextInt());
         }
 
-        System.out.println("Uppercase Names:");
-        names.stream()
-                .map(name ->name.toUpperCase())
-                .forEach(name-> System.out.println(name));
+        System.out.println("Numbers after multiplying by 2:");
+        numbers.stream()
+                .map(number -> number * 2)
+                .forEach(number -> System.out.println(number));
+
         scanner.close();
     }
 }
