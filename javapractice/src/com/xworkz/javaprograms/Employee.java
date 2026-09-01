@@ -13,7 +13,7 @@ public class Employee {
     public String getName(){
         return name;
     }
-    public String getDepartment(){
+    public String getDepartment() {
         return department;
     }
 
