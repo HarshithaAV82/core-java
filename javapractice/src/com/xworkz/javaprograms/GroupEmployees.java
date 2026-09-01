@@ -28,7 +28,7 @@ public class GroupEmployees {
         }
 
         Map<String, List<Employee>> groupedEmployees = list.stream()
-                .collect(Collectors.groupingBy(Employee::getDepartment));
+                .collect(Collectors.groupingBy(Employee::getName));
 
         System.out.println("Employees Grouped by department:");
         groupedEmployees.forEach((department, employeeList) -> {
