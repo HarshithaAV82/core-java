@@ -1,9 +1,8 @@
 package com.xworkz.javaprograms;
 
 import java.util.*;
-import java.util.stream.Collectors;
 
-public class HighestSalaryEmployee {
+public class SecondHighestSalary {
 
     public static void main(String[] args) {
 
@@ -26,29 +25,24 @@ public class HighestSalaryEmployee {
             System.out.println("Enter the department:");
             String department = scanner.nextLine();
 
-            System.out.println("Enter salary");
+            System.out.println("Enter the salary:");
             int salary = scanner.nextInt();
             scanner.nextLine();
-            employee6s.add(new Employee6(id, name, department,salary));
+
+            employee6s.add(new Employee6(id , name, department, salary));
         }
 
-        List<Employee6> highestSalaryEmployee = employee6s.stream()
+        Optional<Employee6> secondHighest = employee6s.stream()
                 .sorted(Comparator.comparingInt(Employee6::getSalary).reversed())
-                .collect(Collectors.toList());
+                .skip(1)
+                .findFirst();
 
-        if (highestSalaryEmployee != null){
-            System.out.println("Highest Salary Employee:" + highestSalaryEmployee.get(0).getName());
-
-            System.out.println("Salary: " + highestSalaryEmployee.get(0).getSalary());
+        if (secondHighest.isPresent()){
+            System.out.println("Second Highest Salary Employee:" + secondHighest.get().getName());
+            System.out.println("Salary:" + secondHighest.get().getSalary());
         }else {
-            System.out.println("No employees found.");
+            System.out.println("Second highest employee does not exist.");
         }
-
         scanner.close();
     }
 }
-
-//Optional<Employee6> result = employees.stream()
-//        .max(Comparator.comparingInt(Employee6::getSalary));
-//
-//System.out.println(result.get().getName());  max() directly finds the highest employee.
