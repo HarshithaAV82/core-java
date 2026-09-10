@@ -1,12 +1,11 @@
 package com.xworkz.javaprograms;
 
 import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.List;
 import java.util.Scanner;
 import java.util.stream.Collectors;
 
-public class FilterAndSortEmployees {
+public class EmployeeNamesByDepartment {
 
     public static void main(String[] args) {
 
@@ -19,37 +18,32 @@ public class FilterAndSortEmployees {
         scanner.nextLine();
 
         for (int i = 0; i < n; i++){
+
             System.out.println("Enter employee Id:");
             int id = scanner.nextInt();
             scanner.nextLine();
 
-            System.out.println("Enter employee name:");
+            System.out.println("Enter the name:");
             String name = scanner.nextLine();
-
-            System.out.println("Enter department:");
+            System.out.println("ENter department:");
             String department = scanner.nextLine();
 
-            System.out.println("Enter salary:");
+            System.out.println("ENter the salary:");
             int salary = scanner.nextInt();
             scanner.nextLine();
 
             employee6s.add(new Employee6(id, name, department, salary));
         }
-        List<Employee6> result = employee6s.stream()
-                .filter(employee -> employee.getSalary() > 50000)
-                .sorted(Comparator.comparingInt(Employee6::getSalary).reversed())
+
+        System.out.println("ENter department to find employee:");
+        String searchDepartment = scanner.nextLine();
+
+        List<String> result = employee6s.stream()
+                .filter(employee6 -> employee6.getDepartment()
+                        .equalsIgnoreCase(searchDepartment))
+                .map(Employee6::getName)
                 .collect(Collectors.toList());
 
-
-        System.out.println("Employees with salary greater than 50000:");
-
-        for (Employee6 employee : result) {
-            System.out.println(
-                    employee.getName() + " - " + employee.getSalary()
-            );
-        }
-
-        scanner.close();
+        System.out.println("Employee in" +  " " + searchDepartment + " :" + result);
     }
-    }
-
+}
