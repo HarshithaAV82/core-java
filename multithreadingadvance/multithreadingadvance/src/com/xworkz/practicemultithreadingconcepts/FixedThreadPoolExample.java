@@ -26,9 +26,7 @@ public class FixedThreadPoolExample {
             });
 
         }
-
         executorService.shutdown();
-
         System.out.println("All tasks submitted");
 
     }
